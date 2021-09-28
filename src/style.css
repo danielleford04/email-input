@@ -1,0 +1,79 @@
+body {
+    background-color: #EDEDED;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.app-container {
+    width: 50%;
+    margin: 300px auto;
+}
+
+.email-input-container {
+    background-color: white;
+    border: lightgray solid 1px;
+    border-radius: 5px;
+    min-height: 40px;
+    cursor: text;
+}
+
+.email-text-input {
+    border:none;
+    line-height: 37px;
+    padding-left: 5px;
+}
+
+.email-text-input:focus {outline:none!important;}
+
+.input-and-dropdown-container {
+    width: 200px;
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-list {
+    background-color: white;
+    max-height: 300px;
+    overflow: scroll;
+    position: absolute;
+    top: 40px;
+}
+
+.dropdown-list-item:hover {
+    background-color: #EFF5F9;
+}
+
+.dropdown-list-item {
+    padding: 10px 15px;
+}
+
+.email-badge {
+    background-color: #EDEDED;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: sans-serif;
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+    line-height: 40px;
+}
+
+.error-badge {
+    background-color: #F3B7BD;
+}
+
+.warning-icon {
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 0 5px;
+    margin-left: 5px;
+}
+
+.close-icon {
+    margin: 0px 5px;
+    width: 20px;
+    cursor: pointer;
+}
